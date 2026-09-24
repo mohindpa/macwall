@@ -14,7 +14,7 @@ enum Support {
     /// Set at runtime with:  MacWall --wallpaper-list <url>   (or : off)
     /// A runtime value overrides the compiled default below; an explicit
     /// empty string ("off") disables the link even when a default is compiled in.
-    static let compiledWallpaperListURL: String? = "https://macwallmac.vercel.app"
+    static let compiledWallpaperListURL: String? = "https://livewallmac.vercel.app"
 
     static var wallpaperListURL: URL? {
         if let raw = UserDefaults.standard.string(forKey: "wallpaperListURL") {
