@@ -1,0 +1,10 @@
+# Build output
+build/
+*.dmg
+*.zip
+
+# Generated at DMG build time (tools/gen_dmg_background.swift regenerates it)
+scripts/dmg-background.png
+
+# macOS
+.DS_Store

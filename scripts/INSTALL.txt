@@ -1,0 +1,31 @@
+MacWall — personal video desktop wallpaper for macOS
+Created by @mohind
+
+INSTALL
+  1. Drag MacWall.app onto the Applications folder (right here in this window).
+  2. Open MacWall from Applications.
+  3. First launch only: if macOS says it "can't be opened because Apple cannot
+     check it for malicious software", right-click (Control-click) MacWall.app
+     -> Open -> Open. (The app is code-signed, but not notarized by Apple.)
+
+REQUIREMENTS
+  - Apple Silicon Mac (M1 or newer)
+  - macOS 13 or newer
+
+USE
+  - MacWall lives in the menu bar (no Dock icon).
+  - Menu bar icon -> Open Dashboard... to pick your videos:
+      WALLPAPER    - the video loops on your desktop, behind the icons
+      SCREENSAVER  - full-screen video while the Mac is idle
+      LOCK SCREEN  - a full-res still frame of the video on the lock screen
+  - Add Videos... (or drag & drop): your files stay exactly where they are —
+    nothing is copied, moved or uploaded.
+  - Start at Login (dashboard Settings) brings the wallpaper back after a restart.
+
+NOTES
+  - No account, no network. Everything is local.
+  - macOS does not allow apps to play video on the real lock screen (only
+    Apple's own wallpapers can animate there) — the lock screen shows a
+    full-resolution frame of your chosen video instead.
+  - Uninstall: quit from the menu bar, delete MacWall.app, and remove the
+    login item if enabled (dashboard -> Start at Login off).
